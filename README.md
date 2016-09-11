@@ -1,6 +1,6 @@
 ## Image Color Reduction by KMeans
 
-This notebook reduces the number of colors using [scikit learn](http://scikit-learn.org/stable/) [KMeans](http://scikit-learn.org/stable/modules/clustering.html#k-means) algo.
+This [notebook](http://nbviewer.ipython.org/github/oscar6echo/ImageColorReduction/blob/master/Image_Color_Reduction.ipynb) reduces the number of colors using [scikit learn](http://scikit-learn.org/stable/) [KMeans](http://scikit-learn.org/stable/modules/clustering.html#k-means) algo.
 + Each RGB color is a 3-dimension vector where each dimension can have 256 values (from 0 to 255 included).
 + The KMeans clustering algorithm is used on 10% of randomly selected pixels.
 + Each original pixel is then mapped to the closest cluster center.
@@ -10,4 +10,3 @@ This notebook reduces the number of colors using [scikit learn](http://scikit-le
 + But it is not immediate to go from color reduction to smaller file size as we can see from the file sizes. 
 
 The new [IPywidgets](https://ipywidgets.readthedocs.io/en/latest/) are used to see the result. Very convenient.
-
